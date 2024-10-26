@@ -1,0 +1,16 @@
+.error {
+    height: 100%;
+
+    &--title {
+        font-size: 150px;
+        color: #00bc77;
+    }
+
+    &--text {
+        font-size: 36px;
+    }
+
+    &--link {
+        font-size: 24px;
+    }
+}

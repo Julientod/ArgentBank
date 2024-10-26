@@ -1,0 +1,17 @@
+.feature {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width:920px) {
+    width: 90%;
+  }
+
+  &--icon {
+    width: 100px;
+    border: 10px solid #00bc77;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+}

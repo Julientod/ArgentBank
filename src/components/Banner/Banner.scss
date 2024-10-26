@@ -1,0 +1,47 @@
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  &--img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 33%;
+  }
+
+  &-text {
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    margin: 2rem;
+    margin-bottom: 70px;
+    padding: 32px;
+
+    @media(max-width:650px) {
+      width: 200px;
+    }
+
+    &--xl {
+      font-weight: bold;
+      font-size: 24px;
+      margin: 0;
+
+      @media(max-width:650px) {
+        font-size: 18px;
+      }
+
+    }
+
+    &--s {
+      font-size: 1.2rem;
+      margin-bottom: 0;
+
+      @media(max-width:650px) {
+        font-size: 14px;
+      }
+    }
+  }
+}

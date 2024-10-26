@@ -1,0 +1,55 @@
+.account {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin: 24px;
+  padding: 24px;
+
+  @media (max-width:720px) {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  &-wrapper {
+    text-align: left;
+
+  }
+
+  &-title {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  &-amount {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &-balance {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  &-cta {
+    margin: 0;
+    padding: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: white;
+
+    @media (max-width:720px) {
+
+      margin: auto;
+      width: 100%;
+    }
+
+  }
+}
